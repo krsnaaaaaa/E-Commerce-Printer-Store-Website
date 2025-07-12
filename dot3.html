@@ -1,0 +1,251 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="description" content="This is an e-commerce website that sells different types of printers">
+    <meta name="keywords" content="Printer,Dot Matrix Printer, Inkjet Printer, Laser Printer, Mobile Printer">
+    <meta name="author" content="Chirag K.C, Nissan Rai, Purnika Khadka, Rohan Prasad Adhikari">
+    <title>Printer Name -INKcredible</title>
+    <link rel="stylesheet" href="/Css/style.css">
+    <script src="/Javascript/Script.js"></script>
+
+    <!--Internal Css  -->
+
+    <style>
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        p {
+            color: antiquewhite;
+            font-size: large;
+        }
+
+           /* PRODUCT CATEGORY CONTAINER */
+           .printer-headername {
+            border-radius: 40px;
+            background-color: #171717;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 200px;
+            margin-bottom: 50px;
+            margin-left: 10%;
+            padding-top: 40px;
+            padding-bottom: 60px;
+            color: antiquewhite;
+            width: 80%;
+        
+
+        }
+
+        .printer-headername h2 {
+            font-size: 80px;
+            color: crimson;
+        }
+
+        /* CONTAINERS FOR INDIVIDUAL PRODUCTS CONTAINERS */
+        .printer-images-conatiner {
+            height: 800px;
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            background-color: rgb(0, 0, 0);
+            padding: 20px 0;
+        }
+
+         /* INDIVIDUAL PRODUCT IMAGE CONTAINERS*/
+         .printer-image-container-box {
+            border-radius: 30px;
+            background-color: #171717;
+            padding-bottom: 30px;
+            padding-top: 20px;
+            margin-left: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            align-self: center;
+            height: 600px;
+        }
+
+        .product-image-description p {
+            font-size: 30px;
+            font-weight: bolder;
+            text-align: left;
+            padding-top: 40px;
+            padding-right: 50px;
+            color: antiquewhite;
+        }
+
+        /* PRODUCT DESCRIPTION CONTAINER */
+
+        .printer-description h3 {
+            font-weight: 800;
+            font-size: 40px;
+            color: antiquewhite;
+            padding-top: 5%;
+            padding-bottom: 15px;
+        }
+
+        .printer-description p {
+            padding-left: 50px;
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+       
+
+        /* css for product image */
+        .printer-image {
+            border-radius: 30px;
+            height: 300px;
+            width: 350px;
+
+        }
+
+        .spec{
+            padding-bottom: 200px;
+        }
+        .spec h1 {
+            font-size: 30px;
+            font-weight: bolder;
+            padding-top: 20px;
+            color: crimson;
+            padding-bottom: 10px;
+        }
+
+        .spec ul li {
+            font-size: larger;
+            padding-left: 50px;
+        }
+        .name a{
+            font-size: 20px; 
+            color: crimson;
+            text-decoration: none;
+        }
+
+       
+
+    </style>
+</head>
+
+<body>
+    <!--Header or Navigation bar are coded below-->
+    <nav>
+        <header>
+
+            <!-- Logo of the site is embeded here-->
+
+            <a href="/Home.html"><img src="/Images/logo.png" style="width: 350px;;" /></a>
+            <div class="menu">
+
+                <a href="/Home.html" class="current-page">Home</a>
+                <a target="_blank" href="/Pages_HTML/Product.html">Products</a>
+                <a target="_blank" href="/Pages_HTML/blogs.html">Blog</a>
+                <a target="_blank" href="/Pages_HTML/research.html">Research</a>
+                <a target="_blank" href="/Pages_HTML/about us.html">About Us</a>
+
+                <!--This section is for contact us button-->
+
+
+            </div>
+            <a target="_blank" href="/Pages_HTML/Contact Us.html" class="btn">Contact Us</a>
+
+        </header>
+    </nav>
+
+                 <!-- printer type header-->
+
+
+    <section class="printer-headername">
+        <h2> DOT MATRIX  </h2>
+               
+
+                     <!-- printer image, name and pricing -->
+
+                <div class="printer-images-conatiner">
+                    <div class="printer-image-container-box">
+                        <img class="printer-image" src="/Images/dotmatrix3.jpeg"  alt="printer image">
+                        <div class="product-image-description">
+                            <p> Epson LQ-310</p>
+
+                            <P style="font-size: 20px;"> Discounted Price :$1359<br> Actual Price : <del>$1499</del></P> <br>
+
+                            <button onclick="addToCart()" style="font-size: 20px; ;" class="button">Add To Cart</button>
+                     </div>
+                </div>
+
+                    
+                     <div class="printer-description">
+                    <h3 style="color: crimson;">Epson LQ-310</h3>
+                    
+
+                         <!-- printer descrption  -->
+
+                    <p>
+                        The Epson LQ-310 is a 24-pin dot matrix printer that was released in 2009. It is a narrow carriage printer, which means that it can only print on paper up to 10 inches wide. The LQ-310 has a print speed of up to 416 characters per second (cps) in draft mode and 103 cps in letter quality mode. It also has a long lifespan, with a mean time between failures (MTBF) of 10,000 hours. </p>
+                     
+                     <br>
+
+                             <!-- Specs of printer -->
+
+
+                    <div class="spec">
+                        <h1>SPECs</h1>
+                        
+                        <ul>
+                            <li>24-pin dot matrix printer</li>
+                            <li>Narrow carriage (10 inches)</li>
+                            <li>Print speed of up to 416 cps in draft mode and 103 cps in letter quality mode</li>
+                            <li>Long lifespan (MTBF of 10,000 hours)</li>
+                            <li>USB, parallel, and serial connectivity</li>
+                            <li>Black ribbon cartridge that yields up to 2.5 million characters</li>
+                        </ul>
+                    </div>
+                    
+                    
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Sections -->
+
+    <section>
+        <footer>
+
+            <p style="font-size: 30px; font-weight: bolder;"> Team Members <br> </p>
+            <p >
+               <div class="name">
+                <a href="/Pages_HTML/chirag.html">Chirag K.C,</a>
+                <a href="/Pages_HTML/nissan.html">Nissan Rai,</a>
+                <a href="/Pages_HTML/purnika.html">Purnika Khadka,</a>
+                <a href="/Pages_HTML/rohan.html">Rohan Adhikari</a>
+               </div>
+            </p>
+
+
+            <!-- Social Media icons and link -->
+
+
+            <div class="social">
+                <a target="_blank" href="https://www.facebook.com/"><img src="/Images/fblogo.jpg" alt="Facebook"></a>
+                <a target="_blank" href="https://www.instagram.com/"><img src="/Images/instalogo.jpg"alt="Instagram"></a>
+                <a target="_blank" href="https://www.whatsapp.com/"><img src="/Images/whlogo.jpg" alt="Whatsapp"></a>
+                <a target="_blank" href="https://web.telegram.org/k/"><img src="/Images/tellogo.jpg" alt="Telegram"></a>
+            </div>
+            <p> Copyright &copy;INKcredible 2024, All right reserved by Team 2 (N7)</p>
+
+        </footer>
+    </section>
+    <!--This Javascript is for the menu or navigation bar of the homepage it makes sticky menu when we scroll down -->
+    <script type="text/javascript">
+        window.addEventListener("scroll", function () {
+            var header = document.querySelector("header");
+            header.classList.toggle('sticky', window.scrollY > 0);
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="description" content="This is an e-commerce website that sells different types of printers">
+    <meta name="keywords" content="Printer,Dot Matrix Printer, Inkjet Printer, Laser Printer, Mobile Printer">
+    <meta name="author" content="Chirag K.C, Nissan Rai, Purnika Khadka, Rohan Prasad Adhikari">
+    <title>Research -INKcredible</title>
+    <link rel="stylesheet" href="/Css/style.css">
+    <script src="/Javascript/Script.js"></script>
+
+    <!--Internal Css  -->
+
+    <style>
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        .full-container{
+            margin-bottom: 200px;
+            margin-top: 200px;
+            margin-left: 80px;
+            margin-bottom: 50px;
+        }
+
+         h1{
+            background-color: #171717; 
+            font-size: 60px; 
+            color: antiquewhite; 
+            text-align: center;
+            margin-right: 70px;
+        }
+        .cards{
+            align-items: center;
+            width: 90%;
+            background: #171717;
+            border-radius: 20px;
+            padding: 20px;
+            margin-top: 50px;
+            margin-left: 50px;
+            padding-bottom: 50px;
+            box-shadow: 0 0 10px rgba(171, 40, 40, 0.1);
+        }
+        p{
+            color: antiquewhite;
+            font-size: 25px;
+        }
+        .cards h2 {
+            color: crimson; 
+            font-size: 40px;
+            font-weight: bolder;
+        }
+        .list{
+            color: antiquewhite;
+            font-size: 18px;
+        }
+        #check{
+            display: none;
+        }
+
+        #check:checked ~ .content {
+            display: block;
+        }
+
+        #check:checked ~ label{
+            display: none;
+        }
+        .content{
+           display: none; 
+        }
+
+        label{
+            display: inline-block;
+            cursor: pointer;
+            color: antiquewhite;
+            background-color:crimson;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+
+        
+        #check1{
+            display: none;
+        }
+
+        #check1:checked ~ .content {
+            display: block;
+        }
+
+        #check1:checked ~ label{
+            display: none;
+        }
+
+        #check2{
+            display: none;
+        }
+
+        #check2:checked ~ .content {
+            display: block;
+        }
+
+        #check2:checked ~ label{
+            display: none;
+        }
+
+        #check3{
+            display: none;
+        }
+
+        #check3:checked ~ .content {
+            display: block;
+        }
+
+        #check3:checked ~ label{
+            display: none;
+        }
+
+        #check4{
+            display: none;
+        }
+
+        #check4:checked ~ .content {
+            display: block;
+        }
+
+        #check4:checked ~ label{
+            display: none;
+        }
+
+        #check5{
+            display: none;
+        }
+
+        #check5:checked ~ .content {
+            display: block;
+        }
+
+        #check5:checked ~ label{
+            display: none;
+        }
+
+        .name a{
+            font-size: 20px; 
+            color: crimson;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <!--Header or Navigation bar are coded below-->
+    <nav>
+        <header>
+
+            <!-- Logo of the site is embeded here-->
+
+            <a href="/Home.html"><img src="/Images/logo.png" style="width: 350px;;" /></a>
+            <div class="menu">
+
+                <a href="/Home.html" class="current-page">Home</a>
+                <a target="_blank" href="/Pages_HTML/Product.html">Products</a>
+                <a target="_blank" href="/Pages_HTML/blogs.html">Blog</a>
+                <a target="_blank" href="/Pages_HTML/research.html">Research</a>
+                <a target="_blank" href="/Pages_HTML/about us.html">About Us</a>
+
+                <!--This section is for contact us button-->
+
+
+            </div>
+            <a target="_blank" href="/Pages_HTML/Contact Us.html" class="btn">Contact Us</a>
+
+        </header>
+    </nav>
+
+    <div class="full-container">
+        <h1 style="background-color: #171717; font-size: 60px; color: crimson; text-align: center;">Research Page </h1>
+
+            <div class="cards">
+                <input type="checkbox" id="check">
+                <h1>HEADER</h1>
+
+                     <!-- header comparision between of ayo and our site -->
+
+
+                <div class="content">
+                    <img src="/Images/header1.png" alt="header img">
+                    <p> Header of <a href="https://goayo.com/">AYO</a>  </p> <br>
+                    <img src="/Images/header11.png" alt="header">
+                    <p>Header of Our Site</p> <br> <br> 
+                    
+                    <hr> <br>
+
+                     <!-- similarities of ayo and our site -->
+
+                    <h2> Similartities</h2>
+                    <ul class="list">
+                        <li>The height and width of both sites are almost similar.</li>
+                        <li>The contents of header is also similar i.e. postion of logo and buttons.</li>
+                        
+
+                    </ul> <br>
+
+                    <hr> <br>
+
+                    <!-- differences of ayo and our site -->
+
+                    <h2>Difference</h2>
+                    <ul class="list">
+                        <li>AYO has add to cart button, we dont have.</li>
+                        <li>Their menu button is in black color ours is in antiquewhite</li>
+                        <li>They have buy now button in the right corner, we replace it with contact us.</li>
+                    </ul>
+                    <label class="button" for="check">Read less</label>
+                </div>
+                <label class="button" for="check">Read more</label>
+            </div>
+
+
+                <!-- slider comparision  of flipkart and our site -->
+
+            <div class="cards">
+                <input type="checkbox" id="check1">
+                <h1>SLIDER</h1>
+
+                <div class="content">
+                    <img src="/Images/slider.png" alt="header img">
+                    <p> Slider of <a href="https://www.flipkart.com/">Flipkart</a> </p> <br>
+                    <img src="/Images/slider1.png" alt="header">
+                    <p>Slider of Our Site</p>  <br>
+
+                    <hr> <br>
+
+                        <!-- similarities of flipkart and our site -->
+
+                    <h2> Similartities</h2>
+                    <ul class="list">
+                        <li>Both sites have image slider on the homepage.</li>
+                        <li>The slider scroll images automatically. </li>
+                        
+
+                    </ul> <br>
+
+                    <hr> <br>
+
+                    <!-- differences of flipkart and our site -->
+                    
+                    <h2>Difference</h2>
+                    <ul class="list">
+                        <li>Flipkart slider is shorter than ours.</li>
+                        <li>There is next and previous button on flipkart's image slider, we dont have that in our slider..</li>
+                        <li>Flipkart slideshows right to left, ours just changes the images without any particular direction like strob.</li>
+                     
+                    </ul>
+                    <label class="button" for="check1">Read less</label>
+                </div>
+                <label class="button" for="check1">Read more</label>
+            </div>
+
+
+                <!-- comparision  of amazon and our site -->
+
+            <div class="cards">
+                <input type="checkbox" id="check2">
+                <h1>PRODUCT LISTING</h1>
+
+
+
+                <div class="content">
+                    <img src="/Images/product-listing.png" alt="header img">
+                    <p> Product listing of <a href="https://www.amazon.in/">Amazon</a> </p> <br>
+                    <img src="/Images/product-listing1.png" alt="header">
+                    <p>Product listing of Our Site</p> <br>
+
+                    <hr> <br>
+
+                        <!-- similarities of amazon and our site -->
+
+                    <h2> Similartities</h2>
+                    <ul class="list">
+                        <li>Both the sites have same product listing boxes.</li>
+                        <li>Both sites only shows the short description of products.</li>
+                        <li>Both have button on the bottom of the card which redirect to the paricular pages.</li>
+
+                    </ul> <br>
+
+                    <hr> <br>
+                    
+                            <!-- differences of ayo and our site -->
+
+                    <h2>Difference</h2>
+                    <ul class="list">
+                        <li>Amazon's container and card background is in white color where ours is dark grey i.e. #171717.</li>
+                        <li>They have multiple images on the card where we have only one image in the card.</li>
+                        <li>There bottom button is simple where ours is in border.</li>
+                    </ul>
+                    <label class="button" for="check2">Read less</label>
+                </div>
+                <label class="button" for="check2">Read more</label>
+            </div>
+
+
+
+                    <!-- comparision between of flipkart and our site -->
+
+            <div class="cards">
+                <input type="checkbox" id="check3">
+                <h1>PRODUCT DESCRIPTION</h1>
+
+                <div class="content">
+                    <img src="/Images/product-des.png" alt="header img">
+                    <p> Product Description <a href="https://www.flipkart.com/"> Flipkart</a> </p> <br>
+                    <img src="/Images/product-des1.png" alt="header">
+                    <p>Product Description of Our Site</p> <br>
+
+                    <hr> <br>
+
+                        <!-- similarities of flipkart and our site -->
+
+                    <h2> Similartities</h2>
+                    <ul class="list">
+                        <li>Both sits having image and thier product description.</li>
+                        <li>Both the sites descibes about product and thier specs.</li>
+     
+
+                    </ul> <br>
+
+                    <hr> <br>
+                    
+                        <!-- differences of ayo and our site -->
+
+                    <h2>Difference</h2>
+                    <ul class="list">
+                        <li>They have image container in the left which contains more images of the product.</li>
+                        <li>Their image is in the left side and description in right our is just opposite to that image is in the right and description is in left.</li>
+                        <li>They have available offers section,rating and reviews,we dont have that.</li>
+                        <li>Thier background color is white where ours is black and dark grey.</li>
+                    </ul>
+                    <label class="button" for="check3">Read less</label>
+                </div>
+                <label class="button" for="check3">Read more</label>
+            </div>
+
+                    <!-- comparision between of wallpapercave and our site -->
+
+            <div class="cards">
+                <input type="checkbox" id="check4">
+                <h1>FOOTER</h1>
+
+                <div class="content">
+                    <img src="/Images/footer.png" alt="header img">
+                    <p> Footer of <a href="https://wallpapercave.com/">WallpaperCave</a></p> <br>
+                    <img src="/Images/footer1.png" alt="header">
+                    <p>Footer of our site</p> <br>
+                    
+                    <hr> <br>
+
+                        <!-- similarities of wallpapercave and our site -->
+
+                    <h2> Similartities</h2>
+                    <ul class="list">
+                        <li>Both the site have same copyright style</li>
+                     
+
+                    </ul> <br>
+
+                    <hr> <br>
+                    
+                        <!-- differences of ayo and our site -->
+
+                    <h2>Difference</h2>
+                    <ul class="list">
+                        <li>Wallpaper cave has only copy right sentence where as we have added social media icons, Team member names .</li>
+                        <li>They cave bottom to top button, we dont have that button.</li>
+                    </ul>
+                    <label class="button" for="check4">Read less</label>
+                </div>
+                <label class="button" for="check4">Read more</label>
+            </div>
+        
+    </div>
+
+                    <!-- footer section -->
+    <section>
+        <footer>
+
+            <p style="font-size: 30px; font-weight: bolder;"> Team Members <br> </p>
+            <p >
+                <div class="name">
+                    <a href="/Pages_HTML/chirag.html">Chirag K.C,</a>
+                    <a href="/Pages_HTML/nissan.html">Nissan Rai,</a>
+                    <a href="/Pages_HTML/purnika.html">Purnika Khadka,</a>
+                    <a href="/Pages_HTML/rohan.html">Rohan Adhikari</a>
+                    </div>
+            </p>
+
+
+            <!-- Social Media icons and link -->
+
+
+            <div class="social">
+                <a target="_blank" href="https://www.facebook.com/"><img src="/Images/fblogo.jpg" alt="Facebook"></a>
+                <a target="_blank" href="https://www.instagram.com/"><img src="/Images/instalogo.jpg" alt="Instagram"></a>
+                <a target="_blank" href="https://www.whatsapp.com/"><img src="/Images/whlogo.jpg" alt="Whatsapp"></a>
+                <a target="_blank" href="https://web.telegram.org/k/"><img src="/Images/tellogo.jpg" alt="Telegram"></a>
+            </div>
+            <p> Copyright &copy;INKcredible 2024, All right reserved by Team 2 (N7)</p>
+
+        </footer>
+    </section>
+    <!--This Javascript is for the menu or navigation bar of the homepage it makes sticky menu when we scroll down -->
+    <script type="text/javascript">
+        window.addEventListener("scroll", function () {
+            var header = document.querySelector("header");
+            header.classList.toggle('sticky', window.scrollY > 0);
+        });
+    </script>
+</body>
+
+</html>
